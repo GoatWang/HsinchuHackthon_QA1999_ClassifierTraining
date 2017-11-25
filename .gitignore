@@ -1,0 +1,3 @@
+*.csv
+.vscode
+.ipynb_checkpoint
