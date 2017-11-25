@@ -62,16 +62,22 @@ class Classifier():
 
 if __name__ == "__main__":
     clf = Classifier()
-    test_sentences = [
-        "要如何申請危機家庭兒童及少年委託安置暨收容費用補助？",
-        "發現有迷童、棄嬰或查無身分之兒少，需緊急安置者。",
-        "發現有兒童及少年(含發展遲緩或身心障礙者)無父母或父母失聯，需緊急送醫者。",
-        "老人健保補助之補助對象、補助額度、申請恢復補助之相關規定為何？",
-        "長青學苑報名資格、上課地點及洽詢單位",
-        "長者預防走失手鍊及身心障礙者防走失手鍊有何不同？"
-    ]
+
+    def getall(col_name):
+        conn = MongoClient()
+        db = conn.QA1999
+        collection = db[col_name]
+        cursor = collection.find({})
+        rows = [row for row in cursor]
+        df = pd.DataFrame(rows)
+        return df
+
+    df_test= getall('taipei')[:100]
+    idxs = np.random.choice(df_test.index, size=5)
+    test_sentences = df_test.loc[idxs, 'question']
+
     for sen in test_sentences:
         cat = clf.predict_cat(sen)
         print(sen)
         print(cat)
-        print("===================")
+        print("======")
