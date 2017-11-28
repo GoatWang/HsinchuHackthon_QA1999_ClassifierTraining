@@ -1,4 +1,4 @@
-# 1999問題分類器
+# 1999 Questions Classifier
 
 ### 1. Web Crawling: 
 1. [QAHsinchu.ipynb](https://github.com/GoatWang/HsinchuHackthon_QA1999_ClassifierTraining/blob/master/QAHsinchu.ipynb)
