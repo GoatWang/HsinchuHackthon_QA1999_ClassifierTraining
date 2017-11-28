@@ -15,3 +15,6 @@
 
 ### 三. Power Point:
 1. [1999問題分類器.pptx](https://github.com/GoatWang/HsinchuHackthon_QA1999_ClassifierTraining/blob/master/1999%E5%95%8F%E9%A1%8C%E5%88%86%E9%A1%9E%E5%99%A8.pptx)
+
+### 四. Line Bot
+1. ![QRcode](/qrcode.png)
