@@ -17,4 +17,5 @@
 1. [1999QuestionClassifier](https://github.com/GoatWang/HsinchuHackthon_QA1999_ClassifierTraining/blob/master/1999%E5%95%8F%E9%A1%8C%E5%88%86%E9%A1%9E%E5%99%A8.pptx)
 (in chinese)
 ### 4. Line Bot
+Notice: If you down't get the response after sending message, wait 1 min, and send it again. Because the server is free, once no requests send to it for about 5 min, the server will shut down. And it cost about 1 min to set up again.
 ![QRcode](/qrcode.png)
