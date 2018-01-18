@@ -21,7 +21,9 @@
 2. [Power Point](https://github.com/GoatWang/HsinchuHackthon_QA1999_Linebot/blob/master/%E6%96%B0%E7%AB%B9%E5%B8%82%E7%A4%BE%E6%9C%83%E8%99%95%20PIPELINE(New).pdf)
 3. Demo
 ![demo](/demo.png)
+
 4. Line Bot
+
 ![QRcode](/qrcode.png)
 
 Notice: If you down't get the response after sending message, wait 1 min, and send it again. Because the server is free, once no requests send to it for about 5 min, the server will shut down. And it cost about 1 min to set up again.
