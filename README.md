@@ -23,5 +23,6 @@
 ![demo](/demo.png)
 
 ![QRcode](/qrcode.png)
+
 Notice: If you down't get the response after sending message, wait 1 min, and send it again. Because the server is free, once no requests send to it for about 5 min, the server will shut down. And it cost about 1 min to set up again.
 
